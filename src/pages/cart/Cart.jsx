@@ -30,7 +30,7 @@ export default function Cart() {
       </div>
       <div className='text-center'>
         <h2>Total Amount: ${totalAmount()}/-</h2>
-        <button onClick={() => navigate("/")}>Continue Shopping</button>
+        <button onClick={() => navigate("/shopping-cart")}>Continue Shopping</button>
         <button>Checkout</button>
       </div>
     </>)
